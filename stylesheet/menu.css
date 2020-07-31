@@ -36,9 +36,10 @@ body {
 }
 .links {
     display: flex;
-    font-size: 17px;
+    font-size: 2em;
     text-transform: uppercase;
-    padding-top: 5px;
+    padding: 5px;
+    font-weight: bolder;
 
 }
 .links :hover {
@@ -48,16 +49,12 @@ ul {
     list-style: none;
     justify-content: space-between;
 }
-li {
-    padding: 10px;
-    border-radius: 10px;
-}
 a {
     color: green;
     font-family: sans-serif;
     font-weight: lighter;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 20px;
     border: none;
 }
 
@@ -183,7 +180,7 @@ footer {
         transition: var(--transition);
     }
     .show-links {
-        height: 20em;
+        height: 10em;
     }
     li {
         padding-top: 10px;
@@ -195,6 +192,25 @@ footer {
     }
     .socials {
         display: none;
+    }
+    .menu {
+        margin-top: -160px;
+    }
+    .section-center {
+        width: 70%;
+        margin-left: 30px;
+        margin-right: auto;
+        display: block;
+     
+    } 
+    .menu-item {
+        max-width: 30em;
+    }
+    .photo {
+        width: 70%;
+    }
+    .item-info {
+        color: green;
     }
     footer  {
         display: block;

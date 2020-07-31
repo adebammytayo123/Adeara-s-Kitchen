@@ -100,11 +100,11 @@ a {
 }
 .centered {
     position: absolute;
-    top: 10%;
-    left: 40%;
+    top: 15%;
+    left: 35%;
     transform: translate(-50%, -50%);
     color: green;
-    font-size: 2.5em;
+    font-size: 1.5em;
     font-style: oblique;
     font-weight: bolder;
 }
@@ -276,9 +276,7 @@ footer {
     .first-text-para {
         text-align: justify;
         font-size: 18px;
-        letter-spacing: 0.2px;
-        word-spacing: 0.5px;
-        line-height: 18px;
+        line-height: 1.5em;
         font-family: initial;
     }
     .first-text-image {
@@ -296,6 +294,8 @@ footer {
     .values {
         padding-top: 20px;
         font-size: 1.3em;
+        margin-right: 0px;
+        margin-left: 0px;
     }
     .value-heading {
         color: gold;
@@ -307,11 +307,11 @@ footer {
         color: green;
         padding: 5px;
         text-align: center;
-        font-size: 1.15em;
+        font-size: 1em;
     }
     .sustain {
         padding-top: -30px;
-        font-size: 1.5em;
+        font-size: 1.3em;
         margin-left: 0px;
         margin-right: 0px;
     }
@@ -333,6 +333,7 @@ footer {
         color: green;
         padding: 5px;
         text-align: center;
+        font-size: 1em;
     }
     footer  {
         display: block;

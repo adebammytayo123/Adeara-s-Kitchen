@@ -378,8 +378,11 @@ section {
     .sidebar {
         width: 400px;
     }
+    .sidebar-toggle {
+        font-size: 1.5em;
+    }
     .close-btn {
-        display: none;
+        margin-right: 70px;
     }
     .image {
         display: block;
@@ -400,6 +403,11 @@ section {
         text-transform: capitalize;
         color: green;
     }
+    .header-title1 {
+        font-size: 1.5em;
+        color: green;
+        font-style: italic;
+    }
     .about-what-image {
         display: block;
         margin-top: 40px;
@@ -418,9 +426,7 @@ section {
     .about-what-para {
         text-align: justify;
         font-size: 1.1em;
-        letter-spacing: 0.3px;
-        word-spacing: 0.5px;
-        line-height: 1.2em;
+        line-height: 1.5em;
         font-family: initial;
     }
     .what-image {
@@ -450,9 +456,7 @@ section {
     .about-how-para {
         text-align: justify;
         font-size: 1.1em;
-        letter-spacing: 0.3px;
-        word-spacing: 0.5px;
-        line-height: 1.2em;
+        line-height: 1.5em;
         font-family: initial;
     }
     .how-image {
@@ -463,6 +467,9 @@ section {
         height: 350px;
         border-radius: 20px;
         margin-top: 30px;
+    }
+    .container {
+        margin-bottom: 7em;
     }
     /* section {
         margin-top: 5em;
@@ -511,7 +518,6 @@ section {
         color: gold;
         text-transform: capitalize;
         font-size: 1.5em;
-        text-align: center;
     }
     .value-list li {
         color: green;
@@ -520,7 +526,7 @@ section {
     }
     .sustain {
         padding-top: -30px;
-        font-size: 1.5em;
+        font-size: 1.3em;
         margin-left: 0px;
         margin-right: 0px;
     }
@@ -528,7 +534,6 @@ section {
         color: gold;
         text-transform: capitalize;
         font-size: 1.5em;
-        text-align: center;
     }
     .sustain-list {
         list-style: none;
