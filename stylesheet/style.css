@@ -253,7 +253,7 @@ footer {
         height: 380px;
     }
     .centered {
-        top: 5%;
+        top: 7%;
         right: 5%;
         font-size: 22px;
     }
@@ -266,8 +266,8 @@ footer {
         justify-content: space-between;
     }
     .first-text-box {
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: -10px;
+        margin-right: -10px;
         padding-bottom: 30px;
     }
     .first-text-heading {
@@ -289,13 +289,12 @@ footer {
     .values-sustain {
         display: block;
         margin-top: 20px;
-        margin-left: 30px;
+        margin-left: 90px;
+        margin-right: 0px;
     }
     .values {
         padding-top: 20px;
         font-size: 1.3em;
-        margin-right: 0px;
-        margin-left: 0px;
     }
     .value-heading {
         color: gold;
@@ -306,13 +305,12 @@ footer {
     .value-list li {
         color: green;
         padding: 5px;
-        text-align: center;
-        font-size: 1em;
+        text-align: left;
     }
     .sustain {
         padding-top: -30px;
         font-size: 1.3em;
-        margin-left: 0px;
+        margin-left: 30px;
         margin-right: 0px;
     }
     .sustain-heading {
@@ -323,7 +321,7 @@ footer {
     }
     .sustain-list {
         list-style: none;
-        margin-left: 20px;
+        margin-left: -35px;
     }
     .sustain-list i {
         color: gold;
@@ -332,8 +330,6 @@ footer {
     .sustain-list li {
         color: green;
         padding: 5px;
-        text-align: center;
-        font-size: 1em;
     }
     footer  {
         display: block;
