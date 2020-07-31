@@ -414,8 +414,8 @@ section {
     }
     .about-what {
         text-align: left;
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     .about-what-heading {
         text-transform: capitalize;
@@ -426,6 +426,8 @@ section {
     .about-what-para {
         text-align: justify;
         font-size: 1.1em;
+        word-spacing: -4px;
+        letter-spacing: 0px;
         line-height: 1.5em;
         font-family: initial;
     }
@@ -444,8 +446,8 @@ section {
     }
     .about-how {
         text-align: left;
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     .about-how-heading {
         text-transform: capitalize;
@@ -456,6 +458,8 @@ section {
     .about-how-para {
         text-align: justify;
         font-size: 1.1em;
+        word-spacing: -4px;
+        letter-spacing: 0px;
         line-height: 1.5em;
         font-family: initial;
     }
@@ -493,7 +497,7 @@ section {
     }
     .sponsors {
         width: 80%;
-        height: 500px;
+        height: 600px;
         background-image: linear-gradient(to right, black, gray);
         margin-left: auto;
         margin-right: auto;
