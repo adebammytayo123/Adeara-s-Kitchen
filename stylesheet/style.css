@@ -162,9 +162,10 @@ a {
     display: flex;
     margin-top: 30px;
     margin-left: 150px;
+    justify-content: space-between;
 }
 .values {
-    padding: 30px;
+    padding-left: 20px;
 }
 .value-heading {
     color: gold;
@@ -187,9 +188,7 @@ a {
     text-align: left;
 }
 .sustain {
-    padding: 30px;
-    margin-left: 220px;
-    margin-right: 0px;
+    margin-right: 200px;
 }
 .sustain-heading {
     color: gold;
@@ -295,15 +294,24 @@ footer {
     .values-sustain {
         display: block;
         margin-top: 30px;
-        margin-left: 0px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .values {
-        padding-left: 100px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .value-list {
+        padding-left: 70px;
     }
     .sustain {
-        padding: 30px;
-        margin-left: 100px;
+        text-align: center;
+        padding-bottom: 30px;
+        margin-left: 50px;
         margin-right: 0px;
+    }
+    .sustain-heading {
+        text-align: center;
     }
     footer  {
         display: block;

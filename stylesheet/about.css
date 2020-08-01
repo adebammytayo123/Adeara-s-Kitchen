@@ -483,11 +483,15 @@ footer {
     }
     .sponsors {
         width: 80%;
-        height: 700px;
+        height: 600px;
         background-image: linear-gradient(to right, black, gray);
         margin-left: auto;
         margin-right: auto;
         border-radius: 20px;
+    }
+    #info {
+        word-spacing: 0px;
+        text-align: left;
     }
     .random-btn {
         font-size: 1.1em;
@@ -502,6 +506,10 @@ footer {
     .value-heading {
         font-size: 2em;
     }
+    .values {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
     .value-list {
         font-size: 1.5em;
     }
@@ -515,6 +523,7 @@ footer {
     .sustain-list {
         font-size: 1.5em;
     }
+
     footer  {
         display: block;
     }
