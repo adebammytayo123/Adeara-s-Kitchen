@@ -100,8 +100,8 @@ a {
 }
 .centered {
     position: absolute;
-    top: 5%;
-    left: 35%;
+    top: 10%;
+    left: 45%;
     transform: translate(-50%, -50%);
     color: green;
     font-size: 2.5em;
