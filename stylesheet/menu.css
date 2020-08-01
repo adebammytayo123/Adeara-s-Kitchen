@@ -52,18 +52,21 @@ li {
     padding: 10px;
     border-radius: 10px;
 }
+li :active {
+    background-color: lightgray;
+}
 a {
     color: green;
     font-family: sans-serif;
     font-weight: lighter;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 15px;
     border: none;
 }
 
 .links i {
     color: gold;
-    font-size: 1em;
+    font-size: 12px;
 }
 .socials {
     display: flex;
@@ -181,14 +184,18 @@ footer {
         display: block;
         padding-top: 20px;
         overflow: hidden;
-        transition: var(--transition);
+        font-size: 20px;
+        /* transition: var(--transition); */
     }
     .show-links {
-        height: 20em;
+        height: 8em;
     }
     li {
         padding-top: 10px;
         border-radius: 0px;
+        font-size: 13px;
+        color: rgb(2, 34, 2);
+        /* font-weight: bolder; */
     }
     .links i {
         color: gold;
@@ -199,13 +206,13 @@ footer {
     }
     .section-center {
         width: 80%;
-        margin: 40px;
+        margin: 10px;
         display: block;
     } 
     .photo {
-        width: 50%;
+        width: 60%;
         /* object-fit: cover; */
-        height: 200px;
+        height: 250px;
         border: 0.25rem gold;
         border-radius: 20px;
     }
