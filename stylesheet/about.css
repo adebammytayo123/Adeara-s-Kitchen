@@ -123,8 +123,8 @@ main {
 .about-what {
     display: flex;
     margin-top: 30px;
-    margin-left: 70px;
-    margin-right: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 .about-what-text {
     display: block;
@@ -143,7 +143,7 @@ main {
     text-align: justify;
 }
 .about-what-image {
-    width: 25%;
+    width: 50%;
     height: 400px;
     margin-right: 200px;
     border-radius: 20px;
@@ -152,8 +152,8 @@ main {
 .about-how {
     display: flex;
     margin-top: 30px;
-    margin-left: 70px;
-    margin-right: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 .about-how-text {
     display: block;
@@ -173,7 +173,7 @@ main {
     text-align: justify;
 }
 .about-how-image {
-    width: 25%;
+    width: 50%;
     height: 400px;
     margin-right: 200px;
     border-radius: 20px;
@@ -464,7 +464,7 @@ footer {
     }
     .sponsors {
         width: 80%;
-        height: 630px;
+        height: 580px;
         background-image: linear-gradient(to right, black, gray);
         margin-left: auto;
         margin-right: auto;
@@ -483,8 +483,8 @@ footer {
     .value-sustain {
         display: block;
         margin-top: 30px;
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 30px;
+        margin-right: 30px;
     }
     .value {
         padding-bottom: 30px;
