@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to right,black, gray)
+    background-color: white;
 }
 .sidebar-toggle {
     position: fixed;
@@ -9,7 +9,7 @@ body {
     outline: none;
     background: transparent;
     border: none;
-    font-size: 2.5em;
+    font-size: 1.5em;
     cursor: pointer;
     animation: bounce 2s ease-in-out infinite ;
 }
@@ -49,18 +49,18 @@ body {
 }
 .header-title1 {
     font-size: 2em;
-    color: green;
+    color: gold;
     font-style: italic;
 }
 .header-title2 {
-    color: gold;
+    color:green;
 }
 .close-btn {
     background: transparent;
     border: none;
     outline: none;
     font-size: 2em;
-    color: green;
+    color:green;
     cursor: pointer;
 }
 .close-btn :hover {
@@ -68,15 +68,17 @@ body {
 }
 .links {
     list-style: none;
-    font-size: 1.3em;
+    font-size: 1em;
+    border-radius: 10px;
 }
 .links :hover {
-    background-color: gray;
+    background-color: lightgray;
 }
 .links li {
     padding: 13px;
     cursor: pointer;
     text-transform: uppercase;
+    border-radius: 10px;
 }
 .links a {
     color: green;
@@ -85,7 +87,7 @@ body {
 .links i {
     font-size: 15px;
     padding-right: 5px;
-    color: gold;
+    color: green;
 }
 .social-icons {
     justify-self: center;
@@ -96,7 +98,7 @@ body {
 .social-icons a {
     font-size: 1.5rem;
     margin: 0 0.5rem;
-    color: gold;
+    color: green;
     transition: var(--transition);
     list-style: none;
 }
@@ -107,12 +109,8 @@ body {
     border-radius: 25px;
 
 }
-/* .main {
-    margin-top: 10em;
-} */
-.image-text-box {
-    display: flex;
-    margin-top: 5em;
+main {
+    margin-top: 8em;
 }
 .image {
     display: block;
@@ -122,57 +120,46 @@ body {
     height: 500px;
     border-radius: 25px;
 }
-.text {
-    position: absolute;
-    top: 10%;
-    left: 25%;
-    text-align: center;
-    font-size: 3em;
-    font-style: italic;
-    text-transform: capitalize;
-    color: green;
-}
-.text-span {
-    color: gold;
-}
-.about-what-image {
+.about-what {
     display: flex;
     margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 60px;
 }
-.about-what {
+.about-what-text {
     display: block;
     text-align: left;
     margin-left: 200px;
-    margin-right: 50px;
-    margin-top: 20px;
+    margin-right: 100px;
 }
 .about-what-heading {
     text-transform: capitalize;
     color: gold;
     font-size: 2em;
 }
-.about-what-para {
-    font-size: 1.3em;
+.about-what-paragraph {
+    font-size: 18px;
     color: green;
     text-align: justify;
 }
-.what-image {
+.about-what-image {
     width: 25%;
     height: 400px;
     margin-right: 200px;
     border-radius: 20px;
     margin-top: 30px;
 }
-.about-how-image {
-    display: flex;
-    margin-top: 40px;
-}
 .about-how {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 60px;
+}
+.about-how-text {
     display: block;
     text-align: left;
     margin-left: 200px;
-    margin-right: 50px;
-    margin-top: 20px;
+    margin-right: 100px;
 }
 .about-how-heading {
     text-transform: capitalize;
@@ -180,12 +167,12 @@ body {
     font-size: 2em;
     text-align: left;
 }
-.about-how-para {
-    font-size: 1.3em;
+.about-how-paragraph {
+    font-size: 18px;
     color: green;
     text-align: justify;
 }
-.how-image {
+.about-how-image {
     width: 25%;
     height: 400px;
     margin-right: 200px;
@@ -201,7 +188,7 @@ section {
     text-transform: capitalize;
     font-size: 2em;
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5em;
 }
 .underline {
     height: 0.25rem;
@@ -210,7 +197,6 @@ section {
     margin-top: -0.5em;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 3em;
 }
 .sponsors {
     width: 50%;
@@ -219,6 +205,7 @@ section {
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
+    padding-top: 20px;
 }
 .img-container {
     position: relative;
@@ -226,7 +213,6 @@ section {
     height: 150px;
     border-radius: 40%;
     margin: 0 auto;
-    padding-top: 30px;
     margin-bottom: 1.5rem;
 }
 #person-img {
@@ -288,28 +274,29 @@ section {
     background: green;
     color: black;
 }
-.values-sustain {
+.value-sustain {
     display: flex;
     margin-top: 30px;
-    margin-left: 170px;
-}
-.values {
-    padding: 30px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    justify-content: space-around;
 }
 .value-heading {
     color: gold;
     text-transform: capitalize;
-    margin-left: 15px;
-    font-size: 2.5em;
-    text-align: center;
+    padding-bottom: 0px;
+    padding-left: 40px;
+    font-size: 2.2em;
+    text-align: left;
 }
 .value-list {
     list-style: none;
-    margin-left: -30px;
-    font-size: 1.7em;
+    font-size: 1.5em;
+    margin-left: -8px;
 }
 .value-list i {
-    color: gold;
+    color: green;
     margin-right: 10px;
 }
 .value-list li {
@@ -317,25 +304,21 @@ section {
     padding: 5px;
     text-align: left;
 }
-.sustain {
-    padding: 30px;
-    margin-left: 70px;
-    margin-right: 0px;
-}
 .sustain-heading {
     color: gold;
     text-transform: capitalize;
-    margin-left: 15px;
-    font-size: 2.5em;
-    text-align: center;
+    padding-bottom: 0px;
+    padding-left: 40px;
+    text-align: left;
+    font-size: 2.2em;
 }
 .sustain-list {
     list-style: none;
-    margin-left: -30px;
-    font-size: 1.7em;
+    font-size: 1.5em;
+    margin-left: -8px;
 }
 .sustain-list i {
-    color: gold;
+    color: green;
     margin-right: 10px;
 }
 .sustain-list li {
@@ -364,6 +347,9 @@ footer {
         margin-top: -20px;
         margin-left: -55px;
         font-size: 15px;
+    }
+    li {
+        border-radius: 10px;
     }
     .links i {
         font-size: 12px;
@@ -398,14 +384,14 @@ footer {
         color: green;
         font-style: italic;
     }
-    .about-what-image {
+    .about-what {
         display: block;
         margin-top: 40px;
     }
-    .about-what {
+    .about-what-text {
         text-align: left;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: -10px;
+        margin-right: -10px;
     }
     .about-what-heading {
         text-transform: capitalize;
@@ -413,7 +399,7 @@ footer {
         color: gold;
         font-size: 2em;
     }
-    .about-what-para {
+    .about-what-paragraph {
         text-align: justify;
         font-size: 1.1em;
         word-spacing: -4px;
@@ -421,23 +407,21 @@ footer {
         line-height: 1.5em;
         font-family: initial;
     }
-    .what-image {
+    .about-what-image {
         display: block;
         margin-right: auto;
         margin-left: auto;
-        width: 60%;
-        height: 350px;
-        border-radius: 20px;
+        width: 80%;
         margin-top: 30px;
     }
-    .about-how-image {
+    .about-how {
         display: block;
         margin-top: 40px;
     }
-    .about-how {
+    .about-how-text {
         text-align: left;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: -10px;
+        margin-right: -10px;
     }
     .about-how-heading {
         text-transform: capitalize;
@@ -445,7 +429,7 @@ footer {
         color: gold;
         font-size: 2.5;
     }
-    .about-how-para {
+    .about-how-paragraph {
         text-align: justify;
         font-size: 1.1em;
         word-spacing: -4px;
@@ -453,14 +437,11 @@ footer {
         line-height: 1.5em;
         font-family: initial;
     }
-    .how-image {
+    .about-how-image {
         display: block;
         margin-right: auto;
         margin-left: auto;
-        width: 60%;
-        height: 350px;
-        border-radius: 20px;
-        margin-top: 30px;
+        width: 80%;
     }
     .container {
         margin-bottom: 7em;
@@ -499,36 +480,19 @@ footer {
     .img-container {
         padding-top: 15px;
     }
-    .values-sustain {
+    .value-sustain {
         display: block;
         margin-top: 30px;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 50px;
+        margin-right: 50px;
     }
-    .values {
-        text-align: center;
+    .value {
         padding-bottom: 30px;
     }
-    .value-heading {
-        font-size: 2em;
-        margin-left: -30px;
-    }
-    .value-list {
-        padding-left: 30px;
-        font-size: 1.3em;
-    }
+
+
     .sustain {
-        text-align: center;
         padding-bottom: 30px;
-        margin-left: -30px;
-        margin-right: 0px;
-    }
-    .sustain-heading {
-        text-align: center;
-        font-size: 2em;
-    }
-    .sustain-list {
-        font-size: 1.3em;
     }
     footer  {
         display: block;
@@ -540,12 +504,13 @@ footer {
 
     }
     footer a {
-        color: gold;
+        color: green;
+        font-size: 1.3em;
     }
     footer a :hover {
-        border: 10px solid gray;
+        border: 10px solid lightgray;
         border-radius: 30px;
-        background-color: gray;
+        background-color: lightgray;
     }
 }
 
