@@ -143,9 +143,9 @@ main {
     text-align: justify;
 }
 .about-what-image {
-    width: 50%;
-    height: 400px;
-    margin-right: 200px;
+    width: 20%;
+    height: 300px;
+    margin-right: 220px;
     border-radius: 20px;
     margin-top: 30px;
 }
@@ -173,9 +173,9 @@ main {
     text-align: justify;
 }
 .about-how-image {
-    width: 50%;
-    height: 400px;
-    margin-right: 200px;
+    width: 20%;
+    height: 300px;
+    margin-right: 220px;
     border-radius: 20px;
     margin-top: 30px;
 }
