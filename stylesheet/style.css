@@ -271,6 +271,9 @@ footer {
     .value {
         padding-bottom: 30px;
     }
+    .value-list {
+        font-size: 18px;
+    }
     .value-heading {
         text-align: left;
         font-size: 2em;
@@ -278,6 +281,9 @@ footer {
     }
     .sustain {
         padding-bottom: 50px;
+    }
+    .sustain-list {
+        font-size: 18px;
     }
     .sustain-heading {
         text-align: left;
