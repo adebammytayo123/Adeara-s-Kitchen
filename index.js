@@ -18,22 +18,22 @@ navToggle.addEventListener("click", function () {
 const images = [
   {
     id: 1,
-    img: "https://res.cloudinary.com/dvytythnk/image/upload/v1595694971/plate-of-appetizing-fish-dish-arranged-with-lemons-tomatoes-1502286_nxauqr.jpg",
+    img: "./Foods/plate-of-appetizing-fish-dish-arranged-with-lemons-tomatoes-1502286.jpg",
     text:"The Best Food Plug !!!"
   },
   {
     id: 2,
-    img: "https://res.cloudinary.com/dvytythnk/image/upload/v1595692132/composition-of-spoonfuls-with-various-spices-for-healthy-4199098_djgiki.jpg",
+    img: "./Foods/white-and-brown-cooked-dish-on-white-ceramic-bowls-958545.jpg",
     text: "Quality Assured Herbs and Spices."
   },
   {
     id: 3,
-    img: "https://res.cloudinary.com/dvytythnk/image/upload/v1595696120/green-vegetable-in-white-bowl-1352199_jzbskf.jpg",
+    img: "./Foods/grilled.jpg",
     text: "Fresh and Wholesome Ingredients."
   },
   {
     id: 4,
-    img: "https://res.cloudinary.com/dvytythnk/image/upload/v1595695099/white-and-brown-cooked-dish-on-white-ceramic-bowls-958545_wv8bgg.jpg",
+    img: "./Foods/close-up-of-salad-in-bowl-248509.jpg",
     text: "Mouth Watering Meals..."
   },
 ]

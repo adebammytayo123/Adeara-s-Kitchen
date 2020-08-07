@@ -15,36 +15,36 @@ const sponsors = [
   {
     id: 1,
     name: "justin smith",
-    job: "web developer",
+    job: "Professional Chef",
     img:
-      "https://res.cloudinary.com/dvytythnk/image/upload/v1595920256/justin_tpbhbs.jpg",
+      "./people/justin.jpg",
     text:
       "I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salvia hoodie, cold-pressed four dollar toast everyday carry",
   },
   {
     id: 2,
     name: "dorathy johnson",
-    job: "web designer",
+    job: "Professional Chef",
     img:
-      "https://res.cloudinary.com/dvytythnk/image/upload/v1595920405/woman-sitting-on-chair-inside-room-1367270_rfn8sl.jpg",
+      "./people/woman-sitting-on-chair-inside-room-1367270.jpg",
     text:
       "Helvetica artisan kinfolk thundercats lumbersexual blue bottle. Disrupt glossier gastropub deep v vice franzen hell of brooklyn twee enamel pin fashion axe.photo booth jean shorts artisan narwhal.",
   },
   {
     id: 3,
     name: "jimmy jones",
-    job: "intern",
+    job: "Professional Chef",
     img:
-      "https://res.cloudinary.com/dvytythnk/image/upload/v1595920441/man-smiling-1605399_fnskvs.jpg",
+      "./people/man-smiling-1605399.jpg",
     text:
       "Sriracha literally flexitarian irony, vape marfa unicorn. Glossier tattooed 8-bit, fixie waistcoat offal activated charcoal slow-carb marfa hell of pabst raclette post-ironic jianbing swag.",
   },
   {
     id: 4,
-    name: "jane anderson",
+    name: "jProfessional Chef",
     job: "the boss",
     img:
-      "https://res.cloudinary.com/dvytythnk/image/upload/v1595920526/jane_fnnh1c.jpg",
+      "./people/jane.jpg",
     text:
       "Edison bulb put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seitan. VHS farm-to-table schlitz, edison bulb pop-up 3 wolf moon tote bag street art shabby chic. ",
   },
