@@ -18,22 +18,22 @@ navToggle.addEventListener("click", function () {
 const images = [
   {
     id: 1,
-    img: "./Foods/plate-of-appetizing-fish-dish-arranged-with-lemons-tomatoes-1502286.jpg",
+    img: "./Foods/appertizing fish.png",
     text:"The Best Food Plug !!!"
   },
   {
     id: 2,
-    img: "./Foods/white-and-brown-cooked-dish-on-white-ceramic-bowls-958545.jpg",
+    img: "./Foods/plates.png",
     text: "Quality Assured Herbs and Spices."
   },
   {
     id: 3,
-    img: "./Foods/grilled.jpg",
+    img: "./Foods/grilled.png",
     text: "Fresh and Wholesome Ingredients."
   },
   {
     id: 4,
-    img: "./Foods/close-up-of-salad-in-bowl-248509.jpg",
+    img: "./Foods/salad.png",
     text: "Mouth Watering Meals..."
   },
 ]

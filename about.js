@@ -41,7 +41,7 @@ const sponsors = [
   },
   {
     id: 4,
-    name: "jProfessional Chef",
+    name: "jane anderson",
     job: "the boss",
     img:
       "./people/jane.jpg",
