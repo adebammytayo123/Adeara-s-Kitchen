@@ -146,5 +146,12 @@ function displayMenuItems(menuItems) {
   });
   displayMenu = displayMenu.join("");
   sectionCenter.innerHTML = displayMenu
-}
+};
+
+const preloader = document.querySelector(".preloader");
+
+window.addEventListener("load", function () {
+    preloader.classList.add("hide-preloader");
+});
+
   

@@ -102,3 +102,10 @@ randomBtn.addEventListener("click", function () {
   currentItem = Math.floor(Math.random() * sponsors.length);
   showPerson(currentItem);
 });
+
+const preloader = document.querySelector(".preloader");
+
+window.addEventListener("load", function () {
+    preloader.classList.add("hide-preloader");
+});
+
