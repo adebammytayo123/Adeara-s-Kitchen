@@ -18,22 +18,22 @@ navToggle.addEventListener("click", function () {
 const images = [
   {
     id: 1,
-    img: "./Foods/appertizing fish.png",
+    img: "./Foods/appertizing_fish 1.png",
     text:"The Best Food Plug !!!"
   },
   {
     id: 2,
-    img: "./Foods/plates.png",
+    img: "./Foods/plates 1.png",
     text: "Quality Assured Herbs and Spices."
   },
   {
     id: 3,
-    img: "./Foods/grilled.png",
+    img: "./Foods/grilled 1.jpg",
     text: "Fresh and Wholesome Ingredients."
   },
   {
     id: 4,
-    img: "./Foods/salad.png",
+    img: "./Foods/salad 1.png",
     text: "Mouth Watering Meals..."
   },
 ]

@@ -17,7 +17,7 @@ const sponsors = [
     name: "justin smith",
     job: "Professional Chef",
     img:
-      "./people/justin.jpg",
+      "./people/justin 1.png",
     text:
       "I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salvia hoodie, cold-pressed four dollar toast everyday carry",
   },
@@ -26,7 +26,7 @@ const sponsors = [
     name: "dorathy johnson",
     job: "Professional Chef",
     img:
-      "./people/woman-sitting-on-chair-inside-room-1367270.jpg",
+      "./people/dorathy 1.png",
     text:
       "Helvetica artisan kinfolk thundercats lumbersexual blue bottle. Disrupt glossier gastropub deep v vice franzen hell of brooklyn twee enamel pin fashion axe.photo booth jean shorts artisan narwhal.",
   },
@@ -35,7 +35,7 @@ const sponsors = [
     name: "jimmy jones",
     job: "Professional Chef",
     img:
-      "./people/man-smiling-1605399.jpg",
+      "./people/jimmy.jpg",
     text:
       "Sriracha literally flexitarian irony, vape marfa unicorn. Glossier tattooed 8-bit, fixie waistcoat offal activated charcoal slow-carb marfa hell of pabst raclette post-ironic jianbing swag.",
   },
