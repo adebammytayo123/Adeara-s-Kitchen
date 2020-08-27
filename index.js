@@ -18,22 +18,22 @@ navToggle.addEventListener("click", function () {
 const images = [
   {
     id: 1,
-    img: "./Foods/appertizing_fish 1.png",
+    img: "./images/asaro-yam-porridge.jpeg",
     text:"The Best Food Plug !!!"
   },
   {
     id: 2,
-    img: "./Foods/plates 1.png",
+    img: "./images/Ofada Sauce.jpg",
     text: "Quality Assured Herbs and Spices."
   },
   {
     id: 3,
-    img: "./Foods/grilled 1.jpg",
+    img: "./images/Breakfast.jpg",
     text: "Fresh and Wholesome Ingredients."
   },
   {
     id: 4,
-    img: "./Foods/salad 1.png",
+    img: "./images/sliced moimoi.jpg",
     text: "Mouth Watering Meals..."
   },
 ]

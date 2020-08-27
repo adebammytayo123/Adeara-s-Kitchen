@@ -7,6 +7,7 @@ body {
     padding: 0;
     width: 100%;
     height: 100%;
+    background-image: linear-gradient(to right, black, grey);
 }
 .preloader {
     position: fixed;
@@ -36,11 +37,8 @@ body {
 .nav-header {
     padding-top: 5px;
     display: flex;
-    color: gold;
+    color:  rgb(245, 225, 114);
     font-size: 1.5em;
-}
-.kitchen {
-    color: green;
 }
 .nav-toggle {
     height: 0px;
@@ -49,7 +47,7 @@ body {
     border: none;
     border-color: transparent;
     font-size: 1.5em;
-    color: gold;
+    color:  rgb(245, 225, 114);
     cursor: pointer;
 }
 .links {
@@ -60,7 +58,7 @@ body {
 
 }
 .links :hover {
-    background-color: lightgray;
+    background-color: rgb(73, 72, 72);
 }
 ul {
     list-style: none;
@@ -71,7 +69,7 @@ li {
     border-radius: 10px;
 }
 a {
-    color: green;
+    color:  rgb(201, 197, 197);
     font-family: sans-serif;
     font-weight: lighter;
     text-decoration: none;
@@ -80,7 +78,7 @@ a {
 }
 
 .links i {
-    color: green;
+    color:  rgb(245, 225, 114);
     font-size: 12px;
 }
 .socials {
@@ -88,11 +86,11 @@ a {
 }
 .socials i {
     padding-top: 3px;
-    color: green;
+    color:  rgb(245, 225, 114);
 }
 .socials :hover {
     border-radius: 30px;
-    background-color: lightgray;
+    background-color: rgb(73, 72, 72);
 }
 .menu {
     padding: 5em 0;
@@ -104,7 +102,7 @@ a {
     padding-bottom: 20px;
 }
 .title h2 {
-    color: green;
+    color:  rgb(201, 197, 197);
     font-size: 2em;
     font-style: oblique;
     text-transform: capitalize;
@@ -113,7 +111,7 @@ a {
 .underline {
     width: 3.5em;
     height: 0.2em;
-    background: gold;
+    background:rgb(245, 225, 114);
     margin-left: auto;
     margin-right: auto;
 }
@@ -125,18 +123,18 @@ a {
 .filter-btn {
     font-size: 1.2em;
     background: transparent;
-    color: green;
+    color: rgb(201, 197, 197);
     padding: 5px;
     margin: 4px;
-    border: 2px solid rgb(112, 252, 112);
+    border: 2px solid rgb(245, 225, 114);
     border-radius: 5px;
     cursor: pointer;
     text-transform: capitalize;
     outline: none;
 }
 .filter-btn:hover {
-    background: lightgray;
-    color: rgb(111, 221, 111);
+    background-color: rgb(73, 72, 72);
+    color: rgb(230, 223, 223);
 }
 .section-center {
     width: 80%;
@@ -150,11 +148,11 @@ a {
 }
 .item-info {
     margin: 10px;
-    color: green;
+    color: rgb(201, 197, 197);
 }
 .item-info header {
     display: flex;
-    border-bottom: 2px dotted green;
+    border-bottom: 2px dotted rgb(245, 225, 114);
     justify-content: space-between;
     margin-bottom: 10px;
 }
@@ -163,7 +161,7 @@ a {
     text-transform: capitalize;
 }
 .item-info .price {
-    color: gold;
+    color: rgb(245, 225, 114);
 }
 .item-info p {
     margin-top: 20px;
@@ -211,7 +209,7 @@ footer {
         color: rgb(2, 34, 2);
     }
     .links i {
-        color: green;
+        color: rgb(245, 225, 114);
         font-size: 12px;
     }
     .socials {
@@ -241,13 +239,13 @@ footer {
 
     }
     footer a {
-        color: green;
+        color: rgb(245, 225, 114);
         font-size: 1.3em;
     }
     footer a :hover {
-        border: 10px solid lightgray;
+        padding: 10px;
         border-radius: 30px;
-        background-color: lightgray;
+        background-color: rgb(73, 72, 72);
     }
     
 }
