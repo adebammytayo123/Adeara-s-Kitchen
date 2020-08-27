@@ -287,7 +287,6 @@ footer {
         margin-right: 30px;
     }
     .value {
-        margin-left: 90px;
         padding-bottom: 30px;
     }
     .value-list {
@@ -299,7 +298,6 @@ footer {
         padding-left: 15px;
     }
     .sustain {
-        margin-left: 90px;
         padding-bottom: 50px;
     }
     .sustain-list {
@@ -315,15 +313,15 @@ footer {
     }
     footer ul {
         display: flex;
+        list-style: none;
         margin-right: auto;
         margin-left: auto;
     }
     footer a {
-        font-size: 1em;
-        color:  rgb(245, 225, 114);
-    }
-    footer a :hover {
+        color: rgb(245, 225, 114);
         padding: 10px;
+    }
+    footer a:hover {
         border-radius: 30px;
         background-color: rgb(73, 72, 72);
     }

@@ -231,19 +231,19 @@ footer {
         margin-top: 30px;
     }
     footer  {
-        display: block;
+        display: flex;
     }
     footer ul {
         display: flex;
-        justify-content: space-evenly;
-
+        list-style: none;
+        margin-right: auto;
+        margin-left: auto;
     }
     footer a {
         color: rgb(245, 225, 114);
-        font-size: 1.3em;
-    }
-    footer a :hover {
         padding: 10px;
+    }
+    footer a:hover {
         border-radius: 30px;
         background-color: rgb(73, 72, 72);
     }

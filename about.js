@@ -14,37 +14,37 @@ closeBtn.addEventListener("click", function () {
 const sponsors = [
   {
     id: 1,
-    name: "justin smith",
-    job: "Professional Chef",
+    name: "JUSTIN MOBOLAJI",
+    job: "Real Estate ",
     img:
-      "./people/justin 1.png",
+      "./people/jimmy.jpg",
     text:
       "I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salvia hoodie, cold-pressed four dollar toast everyday carry",
   },
   {
     id: 2,
-    name: "dorathy johnson",
+    name: "SHEKEMI JOHNSON",
     job: "Professional Chef",
     img:
-      "./people/dorathy 1.png",
+      "./people/Shekemi.jpg",
     text:
       "Helvetica artisan kinfolk thundercats lumbersexual blue bottle. Disrupt glossier gastropub deep v vice franzen hell of brooklyn twee enamel pin fashion axe.photo booth jean shorts artisan narwhal.",
   },
   {
     id: 3,
-    name: "jimmy jones",
-    job: "Professional Chef",
+    name: "JIMMY FOLAHANMI",
+    job: "Civil Engineer",
     img:
-      "./people/jimmy.jpg",
+      "./people/john.jpg",
     text:
       "Sriracha literally flexitarian irony, vape marfa unicorn. Glossier tattooed 8-bit, fixie waistcoat offal activated charcoal slow-carb marfa hell of pabst raclette post-ironic jianbing swag.",
   },
   {
     id: 4,
-    name: "jane anderson",
+    name: "BUKOLA AWOFIEBI",
     job: "the boss",
     img:
-      "./people/jane.jpg",
+      "./people/bukola.jpg",
     text:
       "Edison bulb put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seitan. VHS farm-to-table schlitz, edison bulb pop-up 3 wolf moon tote bag street art shabby chic. ",
   },
