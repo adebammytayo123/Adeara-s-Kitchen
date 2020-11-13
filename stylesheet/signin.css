@@ -1,4 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
     background-image: linear-gradient(to right, black, grey);
 }
 .preloader {
@@ -8,7 +16,6 @@ body {
     right: 0;
     bottom: 0;
     background: white;
-    color: green;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -19,209 +26,157 @@ body {
     z-index: -999;
     visibility: hidden;
 }
-.sidebar-toggle {
-    position: fixed;
-    top: 5%;
-    right: 5%;
-    color:rgb(245, 225, 114);
-    outline: none;
-    background: transparent;
-    border: none;
-    font-size: 1.5em;
-    cursor: pointer;
-    animation: bounce 2s ease-in-out infinite ;
-}
-.sidebar-toggle :hover {
-    color: rgb(223, 205, 106);
-}
-@keyframes bounce {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.5);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-.sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    row-gap: 1rem;
-    padding: 25px;
-    transform: translate(-100%);
-}
-.show-sidebar {
-    transform: translate(0);
-}
-.sidebar-header {
+nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+    padding: 10px 0;
 }
-.header-title1 {
-    font-size: 2em;
-    color:rgb(245, 225, 114);
-    font-style: italic;
+.nav-header {
+    display: flex;
+    color: rgb(245, 225, 114);
+    font-size: 1.5em;
 }
-.close-btn {
+.nav-toggle {
+    height: 0px;
+    overflow: hidden;
     background: transparent;
     border: none;
-    outline: none;
-    font-size: 2em;
-    color:rgb(245, 225, 114);
-    cursor: pointer;
-}
-.close-btn :hover {
+    border-color: transparent;
+    font-size: 1.5em;
     color: rgb(245, 225, 114);
+    cursor: pointer;
 }
 .links {
-    list-style: none;
-    font-size: 1em;
-    border-radius: 10px;
+    display: flex;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding-top: 5px;
+
 }
 .links :hover {
     background-color: rgb(73, 72, 72);
 }
-.links li {
-    padding: 13px;
-    cursor: pointer;
-    text-transform: uppercase;
+ul {
+    list-style: none;
+    justify-content: space-between;
+}
+li {
+    padding: 8px;
     border-radius: 10px;
 }
-.links a {
+a {
     color: rgb(201, 197, 197);
+    font-family: sans-serif;
+    font-weight: lighter;
     text-decoration: none;
+    font-size: 0.9em;
+    border: none;
 }
 .links i {
-    font-size: 15px;
-    padding-right: 5px;
-    color:rgb(245, 225, 114);
-}
-.social-icons {
-    justify-self: center;
-    display: flex;
-    padding-bottom: 2rem;
-    list-style: none;
-}
-.social-icons a {
-    font-size: 1.5rem;
-    margin: 0 0.5rem;
     color: rgb(245, 225, 114);
-    transition: var(--transition);
-    list-style: none;
+    font-size: 12px;
 }
-.social-icons i:hover {
+.socials {
+    display: flex;
+}
+.socials i {
+    padding-top: 10px;
+    color: rgb(245, 225, 114);
+    padding: 3px;
+}
+.socials :hover {
     background-color: rgb(73, 72, 72);
-    color: rgb(236, 218, 114);
-    border-radius: 25px;
-    padding: 15px;
+    border-radius: 30px;
 }
-.contact-info {
-  background-image: linear-gradient(to right, black, grey);
-  color: rgb(201, 197, 197);
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  border: 1px solid rgb(245, 225, 114);
-  width: 40%;
-  height: 570px;
-  margin-top: 10em;
+.form-container {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+   background: transparent;
+   padding: 1em;
+   border-radius: 0.5rem;
+    color: rgb(201, 197, 197);
+    border: 0.1rem solid rgb(245, 225, 114);
 }
-.contact-info h4 {
-  text-align: center;
-  font-size: 2em;
-  text-transform: capitalize;
+.form {
+    display: inline-block;
+    /* width: 100%; */
 }
-.contact {
-  padding-left: 100px;
-  margin-bottom: 30px;
+.title {
+    color: rgb(201, 197, 197);
 }
-.contact label {
-  font-size: 1.5em;
+.form-field label {
+    width: 25%;
+    font-size: 1.2rem;
+   text-transform: capitalize;
+   color: var(--mainDark);
 }
-.contact input {
-  width: 70%;
-  height: 35px;
-  border: 1px solid rgb(245, 225, 114);
-  border-radius: 10px;
-  background-color: rgb(199, 198, 198);
-  font-size: 1.2em;
-  outline: none;
+.form-field input {
+    width: 70%;
+    height: 3rem;
+    text-transform: capitalize;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background: transparent;
+    color: rgb(201, 197, 197);
+    border: 0.1rem solid rgb(245, 225, 114);
+    border-radius: 0.2rem;
+    outline: none;
 }
-.submit {
-    font-size: 1.2em;
-  display: block;
-  margin-right: auto;
-  margin-left: 120px;
-  width: 50%;
-  height: 35px;
-  border: 1px solid rgb(245, 225, 114);
-  border-radius: 10px;
-  cursor: pointer;
-  background-color: rgb(199, 198, 198);
-  outline: none;
+.save-btn {
+    padding: 0.3rem 1.2rem;
+    background: rgb(32, 32, 32);;
+    color: rgb(201, 197, 197);
+    border: 0.1em solid rgb(245, 225, 114);
+    border-radius: 0.4rem;
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    transition: all 0.5s linear;
 }
-@media screen and (min-width: 676px) {
-  .sidebar {
-    width: 400px;
-  }
+.save-btn:hover {
+    background: rgb(245, 225, 114);
+    color: rgb(32, 32, 32);
 }
-@media screen and (max-width: 676px) {
-    .sidebar {
-        width: 400px;
+@media screen  and (max-width: 800px) {
+    nav {
+        display: block;
+        padding: 20px;
+        background-image: none;
     }
-    .sidebar-toggle {
-        font-size: 1.5em;
+    .nav-header {
+        justify-content: space-between;
     }
-    .close-btn {
-        margin-right: 120px;
+    .nav-toggle {
+        overflow: visible;
+        box-shadow: none;
+        outline: none;
+    }
+    .nav-toggle :hover {
+        transform: rotate(90deg);
     }
     .links {
-        margin-top: -20px;
-        margin-left: -55px;
-        font-size: 15px;
+        height: 0;
+        display: block;
+        padding-top: 20px;
+        overflow: hidden;
+        transition: var(--transition);
     }
-    li {
-        border-radius: 10px;
+    .show-links {
+        height: 12em;
     }
-    .links i {
-        font-size: 12px;
-    }
-    .social-icons {
+    .socials {
         display: none;
     }
-  .contact-info {
-    width: 80%;
-  }
-  .contact-info h4 {
-    text-align: center;
-    font-size: 1.5em;
-    text-transform: capitalize;
-  }
-  .contact {
-    padding-left: 60px;
-    margin-bottom: 30px;
-  }
-  .contact label {
-    font-size: 1.2em;
-  }
-  .contact input {
-    width: 80%;
-    height: 35px;
-  }
-  .submit {
-    font-size: 1.2em;
-    display: block;
-    margin-left: 80px;
-    width: 60%;
-    height: 35px;
-    border: 1px solid rgb(245, 225, 114);
-  }
+    .form-container {
+        width: 100%;
+       background: transparent;
+       padding: 1em;
+       border-radius: 0.5rem;
+        color: rgb(201, 197, 197);
+        border: 0.1rem solid yellow;
+    }
 }

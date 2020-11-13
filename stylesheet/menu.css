@@ -172,9 +172,6 @@ a {
     border: 0.25rem gold;
     border-radius: 20px;
   }
-footer {
-    display: none;
-}
 
 @media screen  and (max-width: 800px) {
     .nav-center {
@@ -229,23 +226,5 @@ footer {
     }
     .item-info .item-text {
         margin-top: 30px;
-    }
-    footer  {
-        display: flex;
-    }
-    footer ul {
-        display: flex;
-        list-style: none;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    footer a {
-        color: rgb(245, 225, 114);
-        padding: 10px;
-    }
-    footer a:hover {
-        border-radius: 30px;
-        background-color: rgb(73, 72, 72);
-    }
-    
+    }  
 }
