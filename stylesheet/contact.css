@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #ffffff;
+    font-family: archivo;
+    width: 100%;
+    height: 100%;
+    color: #071435;
+    font-weight: 500;
+  }
+  
+  :root {
+    --scroll-width: 100%;
+    --scroll-height: 40vh;
+    /* --scroll-elements: 9; */
+    --scroll-elements-displayed: 5;
+    --scroll-element-width: calc(var(--scroll-width)/var(--scroll-elements-displayed));
+    --scroll-animation-duration: calc(var(--scroll-elements)*2s);
+  }
+  
+  .preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    z-index: 999;
+  }
+  
+  .hide-preloader {
+    z-index: -999;
+    visibility: hidden;
+  }
+  
+  
+  .text-logo {
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+    margin-top: 1rem !important;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cont {
+    display: flex;
+  }
+  
+  .nav-toggle {
+    height: 0px;
+    overflow: hidden;
+    background: #ffffff;
+    border-color: transparent;
+    font-size: 1.5em;
+    cursor: pointer;
+    margin-top: -1.5rem;
+  }
+  
+  .mt-lc {
+    margin-left: 300px;
+  }
+  
+  .links {
+    display: flex;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding-top: 5px;
+  
+  }
+  
+  ul {
+    list-style: none;
+    justify-content: space-between;
+  }
+  
+  li {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+  }
+  
+  ul li a {
+    font-weight: lighter;
+    text-decoration: none;
+    color: #071435;
+    border: none;
+  }
+  
+  ul li a:hover {
+    color: #071435;
+  }
+  
+  .heading {
+    background-color: tomato;
+    text-align: center;
+    color: #ffffff;
+    height: 60px;
+    font-family: 'Carrois Gothic SC';
+    margin-top: -1.5rem;
+  }
+  
+  .heading p {
+    padding-top: 0.7rem;
+    font-size: 1.5rem;
+  }
+  
+.form {
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.2);
+    margin-top: 10rem;
+    width: 50%;
+}
+
+.form h2 {
+  color: #071435;
+}
+
+.form p {
+  color: #071435;
+  font-size: 1.2rem;
+}
+
+label {
+    color: #071435;
+}
+
+input:focus, textarea:focus{
+    outline: none;
+}
+
+.btn-submit {
+    float: right;
+}
+
+.submit {
+    background-color: tomato;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+.footer{
+  background: #1D293F;
+  height: 100%;
+  color: #818183 !important;
+}
+
+.visit {
+  margin-top: 1.5rem;
+}
+
+.visit p {
+  margin-top: 2.5rem;
+}
+
+.small {
+  display: flex !important;
+}
+
+.q-link {
+  margin-top: 1.5rem;
+}
+
+.q-link li{
+  list-style-type: none;
+  margin-left: -2.5rem;
+}
+
+.q-link a{
+  color: #818183 !important;
+  font-weight: bold;
+}
+
+.t-icon {
+  margin-left: -0.5rem;
+}
+
+.t-icon a{
+  margin-right: 10px;
+  font-size: 1.3em;
+  padding: 0.5rem;
+}
+
+.text-white{
+  color: #ffffff !important;
+}
+
+
+@media screen  and (max-width: 760px) {
+    :root {
+      /* --scroll-width: 100vw; */
+      --scroll-height: 16vh;
+      --scroll-elements-displayed: 2;
+    }
+  
+    .scroll::before, .scroll::after {
+      width: 5rem;
+    }
+  
+      .nav-center {
+          display: block;
+          padding: 20px;
+          background-image: none;
+      }
+  
+      .nav {
+        display: block;
+      }
+  
+      .nav-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+  
+      .text-logo {
+        margin-top: 1rem;
+        margin-left: 1rem;
+      }
+      .nav-toggle {
+        overflow: visible;
+        outline: none;
+        font-size: 2rem;
+    }
+
+    .links {
+        height: 0;
+        display: block;
+        padding-top:  10px;
+        overflow: hidden;
+    }
+
+    .mt-lc{
+      margin-left: 2px !important;
+    }
+
+    li {
+      margin-left: -1.5rem;
+    }
+
+    .show-links {
+        height: 12em;
+    }
+    .form {
+      width: 100%;
+  }
+  
+}

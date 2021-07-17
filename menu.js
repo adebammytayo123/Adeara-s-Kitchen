@@ -19,75 +19,140 @@ navToggle.addEventListener("click", function () {
 const menu = [
     {
       id: 1,
-      title: "buttermilk pancakes",
-      category: "breakfast",
+      title: "Protein Shakes",
+      category: "shakes",
       price: 15.99,
-      img: "./images/item-1.jpeg",
+      img: "./images/protein-shakes.jpeg",
       desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
+      order: "Order"
     },
     {
       id: 2,
       title: "diner double",
-      category: "lunch",
+      category: "breakfast",
       price: 13.99,
       img: "./images/item-2.jpeg",
       desc: `vaporware iPhone mumblecore selvage raw denim slow-carb leggings gochujang helvetica man braid jianbing. Marfa thundercats `,
+      order: "Order"
     },
     {
       id: 3,
-      title: "godzilla milkshake",
-      category: "shakes",
-      price: 6.99,
-      img: "./images/item-3.jpeg",
-      desc: `ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.`,
+      title: "Shrimp Pasta",
+      category: "breakfast",
+      price: 13.99,
+      img: "./Foods/pasta.jpg",
+      desc: `vaporware iPhone mumblecore selvage raw denim slow-carb leggings gochujang helvetica man braid jianbing. Marfa thundercats `,
+      order: "Order"
     },
     {
       id: 4,
+      title: "Egg Salad",
+      category: "breakfast",
+      price: 13.99,
+      img: "./Foods/salad.png",
+      desc: `vaporware iPhone mumblecore selvage raw denim slow-carb leggings gochujang helvetica man braid jianbing. Marfa thundercats `,
+      order: "Order"
+    },
+    {
+      id: 5,
+      title: "London Shakes",
+      category: "shakes",
+      price: 6.99,
+      img: "./images/london-shakes.jpeg",
+      desc: `ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.`,
+      order: "Order"
+    },
+    {
+      id: 6,
       title: "country delight",
       category: "breakfast",
       price: 20.99,
       img: "./images/item-4.jpeg",
       desc: `Shabby chic keffiyeh neutra snackwave pork belly shoreditch. Prism austin mlkshk truffaut, `,
+      order: "Order"
     },
     {
-      id: 5,
+      id: 7,
       title: "egg attack",
       category: "lunch",
       price: 22.99,
       img: "./images/item-5.jpeg",
       desc: `franzen vegan pabst bicycle rights kickstarter pinterest meditation farm-to-table 90's pop-up `,
+      order: "Order"
     },
     {
-      id: 6,
+      id: 8,
+      title: "Ofada Rice",
+      category: "lunch",
+      price: 13.99,
+      img: "./images/ofada-rice.jpeg",
+      desc: `vaporware iPhone mumblecore selvage raw denim slow-carb leggings gochujang helvetica man braid jianbing. Marfa thundercats `,
+      order: "Order"
+    },
+    {
+      id: 9,
+      title: "Coconut Jollof Rice",
+      category: "lunch",
+      price: 13.99,
+      img: "./images/jollofrice.jpeg",
+      desc: `vaporware iPhone mumblecore selvage raw denim slow-carb leggings gochujang helvetica man braid jianbing. Marfa thundercats `,
+      order: "Order"
+    },
+    {
+      id: 10,
       title: "oreo dream",
       category: "shakes",
       price: 18.99,
       img: "./images/item-6.jpeg",
       desc: `Portland chicharrones ethical edison bulb, palo santo craft beer chia heirloom iPhone everyday`,
+      order: "Order",
+      view: "View Order"
     },
     {
-      id: 7,
+      id: 11,
       title: "bacon overflow",
       category: "breakfast",
       price: 8.99,
       img: "./images/item-7.jpeg",
       desc: `carry jianbing normcore freegan. Viral single-origin coffee live-edge, pork belly cloud bread iceland put a bird `,
+      order: "Order"
     },
     {
-      id: 8,
+      id: 12,
       title: "american classic",
       category: "lunch",
       price: 12.99,
       img: "./images/item-8.jpeg",
       desc: `on it tumblr kickstarter thundercats migas everyday carry squid palo santo leggings. Food truck truffaut  `,
+      order: "Order"
     },
     {
-      id: 9,
-      title: "quarantine buddy",
+      id: 13,
+      title: "Summer Shakes",
       category: "shakes",
       price: 16.99,
-      img: "./images/item-9.jpeg",
+      img: "./images/summer-shakes.jpeg",
       desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+      order: "Order",
+      view: "View Order"
+    },
+    {
+      id: 14,
+      title: "Frosty Yoghurt",
+      category: "shakes",
+      price: 16.99,
+      img: "./images/frosty-yoghurt.jpeg",
+      desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+      order: "Order"
+    },
+    {
+      id: 15,
+      title: "Eforiro & Poundedyam",
+      category: "lunch",
+      price: 16.99,
+      img: "./images/pounded-yam.png",
+      desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+      order: "Order"
     },
   ];
   
@@ -97,6 +162,7 @@ const filterBtns = document.querySelectorAll(".filter-btn");
 window.addEventListener("DOMContentLoaded", function () {
   displayMenuItems(menu)
 });
+
 
 // filter items
 
@@ -126,12 +192,14 @@ filterBtns.forEach(function (btn) {
 });
 
 
+// itemBtn.addEventListener('click', () => {
+//   itemBtn.innerHTML = "hcbhsa"
+//   console.log("hello")
+// })
 
 
 function displayMenuItems(menuItems) {  
   let displayMenu = menuItems.map(function (item) {
-    // console.log(item);
-
 
     return ` <article class="menu-item">
     <img src=${item.img} class="photo" alt=${item.title}">
@@ -141,6 +209,8 @@ function displayMenuItems(menuItems) {
         <h4 class="price">$${item.price}</h4>
       </header>
      ${item.desc}
+     <br>
+      <button class="item-button">${item.order}</button>
     </div>
   </article>`
   });
@@ -148,8 +218,19 @@ function displayMenuItems(menuItems) {
   sectionCenter.innerHTML = displayMenu
 };
 
+// const itemBtn = document.querySelector(".item-button");
+
+// itemBtn.addEventListener("click", () => {
+//   console.log("hello")
+// })
+
 const preloader = document.querySelector(".preloader");
 
 window.addEventListener("load", function () {
     preloader.classList.add("hide-preloader");
 });
+
+
+
+
+
