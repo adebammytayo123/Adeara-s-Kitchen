@@ -218,12 +218,6 @@ function displayMenuItems(menuItems) {
   sectionCenter.innerHTML = displayMenu
 };
 
-// const itemBtn = document.querySelector(".item-button");
-
-// itemBtn.addEventListener("click", () => {
-//   console.log("hello")
-// })
-
 const preloader = document.querySelector(".preloader");
 
 window.addEventListener("load", function () {
